@@ -3,8 +3,7 @@
 ## Date: 25.11.2025
 ## Reg. No: 212223220082
 
-# Ex.No.10  
-# Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
+
 
 
 ---
