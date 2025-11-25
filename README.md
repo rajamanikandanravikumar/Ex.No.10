@@ -29,7 +29,7 @@ The objective is to highlight how different prompt structures affect the content
 ---
 
 ## Selected Content Scenarios
-We’ll demonstrate two scenarios:
+
 
 1. **Asking Q&A about Stress To AI**
 
@@ -47,7 +47,10 @@ This scenario focuses on generating academic, structured, and informative conten
 
 ### 1. First Draft (Simple Prompt)
 
-**Prompt:** "Write a short, introductory report on how AI is used for stress management."
+**Prompt:** 
+```
+Write a short, introductory report on how AI is used for stress management.
+```
 
 **First Draft Output:**
 AI tools are being used to help people manage their stress. [cite_start]These tools monitor, detect, and help reduce stress using sophisticated algorithms that provide personalized techniques[cite: 9, 10]. [cite_start]They are important in places like India where stress levels are increasing due to lifestyle changes[cite: 12]. [cite_start]AI offers support that is available 24/7 and is confidential[cite: 15, 16]. [cite_start]It can give immediate relief through things like "brain dumps," reframing negative thoughts, and giving breathing exercises[cite: 20, 21, 22]. [cite_start]Popular tools include meditation apps, wearable tech, and scheduling assistants[cite: 24, 27, 30]. [cite_start]However, AI is only a supportive tool and cannot replace human therapists for complex mental health conditions[cite: 35, 40].
@@ -56,7 +59,10 @@ AI tools are being used to help people manage their stress. [cite_start]These to
 
 ### 2. Refined Content (Detailed & Structured Prompt)
 
-**Prompt:** "Generate an analytical abstract for a research paper on the 'Effectiveness and Mechanism of AI in Stress Management.' It must cover AI's detection methods (biometric/behavioral), its primary utility as a complementary tool, and cite the evidence of its success in the healthcare sector."
+**Prompt:** 
+```
+Generate an analytical abstract for a research paper on the 'Effectiveness and Mechanism of AI in Stress Management.' It must cover AI's detection methods (biometric/behavioral), its primary utility as a complementary tool, and cite the evidence of its success in the healthcare sector.
+```
 
 **Refined Content Output (Abstract):**
 ### Abstract: Effectiveness and Mechanism of AI in Stress Management
@@ -69,9 +75,14 @@ AI tools are being used to help people manage their stress. [cite_start]These to
 
 | Prompt Change | Output Effect |
 | :--- | :--- |
-| **Prompt V3:** "Focus the paper section on **AI detection methods** and the *proactive* benefit. Use an **informative, highly technical tone**." | [cite_start]Output emphasizes **Pattern Recognition** across diverse data points, noting how advanced algorithms identify subtle patterns *before* the individual consciously recognizes the stress[cite: 49, 50]. [cite_start]Details are given on monitoring **typing speed** and **tone of written communications**[cite: 43]. |
-| **Prompt V4:** "Write a section focused on **AI's role compared to human therapy**. Use a **cautious, balanced tone** emphasizing ethical boundaries." | [cite_start]Output clearly states that AI is **not a replacement** for professional human therapists[cite: 35]. [cite_start]It emphasizes that human professionals are **irreplaceable** for complex mental health conditions, providing the necessary nuanced understanding, empathy, and diagnostic capabilities[cite: 40]. |
-
+| **Prompt V3:** 
+```
+Focus the paper section on **AI detection methods** and the *proactive* benefit. Use an **informative, highly technical tone**." | [cite_start]Output emphasizes **Pattern Recognition** across diverse data points, noting how advanced algorithms identify subtle patterns *before* the individual consciously recognizes the stress[cite: 49, 50]. [cite_start]Details are given on monitoring **typing speed** and **tone of written communications**[cite: 43].
+```
+| **Prompt V4:** 
+```
+Write a section focused on **AI's role compared to human therapy**. Use a **cautious, balanced tone** emphasizing ethical boundaries." | [cite_start]Output clearly states that AI is **not a replacement** for professional human therapists[cite: 35]. [cite_start]It emphasizes that human professionals are **irreplaceable** for complex mental health conditions, providing the necessary nuanced understanding, empathy, and diagnostic capabilities[cite: 40]. |
+```
 ---
 
 ### 4. Final Version: Research Paper - Full Report (Simulated PDF Content)
